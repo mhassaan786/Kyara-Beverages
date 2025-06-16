@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- styles & favicon & font styles -->
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/others/logo.png" type="image/x-icon">
+    <title>Contact US</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbr">
+        <!-- brand logo -->
+         <div class="brandLogo">
+            <img src="./Assets/others/logo.png" alt="Sorry">
+            <div class="heading">
+            <h2>Kyara</h2>
+            <p>Beverges</p>
+            </div>
+        </div>
+        <!-- navlist -->
+        <nav>
+            <li><img src="./Assets/Icons/home_Icon.svg" alt="Home"><a href="index.html">Home</a></li>
+            <li><img src="./Assets/Icons/menu_Icon.svg" alt="Menu"><a href="Menu.html">Menu</a></li>
+            <li><img src="./Assets/Icons/contact_Icon.svg" alt="Contact"><a style="color: grey;" href="void:(0)">Contact Us</a><li>
+        </nav>
+    </div>
+
+    <!-- popup for form submission -->
+     <div class="popBox deactive">
+     <div class="popup">
+        <img src="./Assets/Icons/tickIcon.svg" alt="Tick">
+        <p>Form Submitted Succesfully!!!</p>
+     </div>
+     </div>
+
+    <!-- contact us -->
+<div class="contactForm">
+    <form method="get">
+        <div>
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" required placeholder="type your full name">
+        </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="type your working email">
+        </div>
+
+        <div>
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" name="ph_number" id="phoneNumber" pattern="(03\d{9}|\+923\d{9})" required placeholder="03XXXXXXXXX">
+        </div>
+
+        <div>
+        <label for="msg">Message</label>
+        <textarea rows="5" name="msg" id="msg" required placeholder="tell us more, feel free to share anything"></textarea>
+        </div>
+
+        <div>
+        <input type="Submit" value="Send">
+        </div>
+    </form>
+</div>
+
+    <!-- form logics -->
+     <script src="./JS/form.js" async></script>
+</body>
+<!-- footer -->
+<footer>
+<h1>KYARA BEVERGES</h1>
+    <div class="socialMedia">
+        <h3>Find Us!!!</h3>
+        <div class="items">
+            <img src="./Assets/Icons/facebookIcon.svg" alt="FaceBook"> 
+            <p>www.facebook.com/kyarabevergares_drinks.com.pk</p>           
+        </div>
+        <div class="items">
+            <img src="./Assets/Icons/InstagramIcon.svg" alt="Instagram"> 
+            <p>www.Instagram.com/kyarabevergares_drinks.com.pk</p>           
+        </div>
+        <div class="items">
+            <img src="./Assets/Icons/WhatsAppIcon.svg" alt="WhatsApp"> 
+            <p>+92-321-5648916</p>           
+        </div>
+        <div class="items">
+            <img src="./Assets/Icons/ShopIcon.svg" alt="Shop"> 
+            <p>Building No 547, Area B, ExtraCiti, Maikal Road</p>           
+        </div>
+        <strong>All Copyrights are reserved</strong>
+    </div>    
+</footer>
+</html>
