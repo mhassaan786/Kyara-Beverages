@@ -8,7 +8,7 @@ const menu = {
     ],
     juices: [
         {name: "Fresh Lime Soda", price: 2000, src: "./Assets/items/Fresh Lime Soda.jpg"},
-        {name: "Orange Juice", price: 1800, src: "./Assets/items/Orange_Juice.jpg"},
+        {name: "Orange Juice", price: 1800, src: "./Assets/items/Orange_juice.jpg"},
         {name: "Mint Lemonade", price: 1800, src: "./Assets/items/Mint Lemonade.jpg"},
     ],
     cofee: [
