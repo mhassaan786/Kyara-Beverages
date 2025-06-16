@@ -114,7 +114,7 @@ nav li a {
 }
 .about {
     display: grid;
-    /* width: 100; */
+    max-width: 100;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: end;
     gap: 15px;
